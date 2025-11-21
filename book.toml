@@ -1,7 +1,6 @@
 [book]
 authors = ["FranCalveyra"]
 language = "en"
-multilingual = false
 src = "src"
 title = "Arquitectura de Nube en AWS"
 
