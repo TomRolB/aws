@@ -89,6 +89,7 @@ aws/
   ```
 
 - **Ejemplos de código**: Los ejemplos prácticos en `src/examples/` están listos para ejecutar con Python 3 y las dependencias especificadas en `pyproject.toml`
+  - Hay algunos ejemplos seteados con `uv` como herramienta de building
 
 ### Para contribuir
 
@@ -156,14 +157,13 @@ aws/
 ## Notas importantes
 
 - Este material contiene las presentaciones del curso transcriptas a formato Markdown
-- Las imágenes han sido extraídas automáticamente de los PDFs originales (3,811 imágenes)
 - El contenido está actualizado con las prácticas y servicios de AWS vigentes en 2025
 - Los PDFs originales se mantienen en `src/presentations/` para referencia
 - Compatible con mdBook para una experiencia de lectura optimizada
 
 ---
 
-**Instructores**: Ing. Fernando Lichtschein, Ing. Mora Villa Abrille  
+**Docentes**: Fernando Lichtschein, Mora Villa Abrille  
 **Materia**: Arquitecturas de Nube con AWS  
 **Universidad**: Universidad Austral  
 **Año**: 2025
