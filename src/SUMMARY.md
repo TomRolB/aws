@@ -11,13 +11,13 @@
 - [Servicios de bases de datos](./Clase%205.md)
 - [Servicios de red](./Clase%206.md)
 - [Conexión entre redes](./Clase%207.md)
-- [Clase 8](./Clase%208.md)
-- [Clase 9](./Clase%209.md)
-- [Clase 10](./Clase%2010.md)
-- [Clase 11](./Clase%2011.md)
-- [Clase 12](./Clase%2012.md)
-- [Clase 13](./Clase%2013.md)
-- [Clase 14](./Clase%2014.md)
+- [Seguridad en la nube](./Clase%208.md)
+- [Monitoreo, elasticidad y alta disponibilidad](./Clase%209.md)
+- [Automatización de infraestructura](./Clase%2010.md)
+- [Cacheo de contenidos](./Clase%2011.md)
+- [Arquitecturas desacopladas](./Clase%2012.md)
+- [Arquitecturas serverless y microservicios](./Clase%2013.md)
+- [Planeamiento para desastres](./Clase%2014.md)
 
 # Recursos Adicionales
 

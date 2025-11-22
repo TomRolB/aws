@@ -1,6 +1,6 @@
-# Clase 14
+# Planeamiento para desastres
 
-## Planeamiento para desastres
+> Esta clase abarca el módulo 16 del curso de AWS Cloud Architecting
 
 ![Imagen 2-1](images/clase_15_page2_img1.png)
 

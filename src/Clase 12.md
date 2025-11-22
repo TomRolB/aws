@@ -1,6 +1,6 @@
-# Clase 12
+# Arquitecturas desacopladas
 
-## Arquitecturas desacopladas
+> Esta clase abarca el módulo 13 del curso de AWS Cloud Architecting
 
 ![Imagen 2-1](images/clase_12_page2_img1.png)
 

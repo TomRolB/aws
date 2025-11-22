@@ -1,8 +1,6 @@
-# Clase 13
+# Arquitecturas serverless y microservicios
 
-## Arquitecturas serverless y
-
-microservicios
+> Esta clase abarca el módulo 14 del curso de AWS Cloud Architecting
 
 ![Imagen 2-1](images/clase_13_page2_img1.png)
 

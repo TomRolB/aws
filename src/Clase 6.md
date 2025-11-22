@@ -209,11 +209,11 @@ Ejemplos:
 
 ### Resolución de problemas en VPC - Otras herramientas
 
-- Reachability Analyzer
+- **Reachability Analyzer**
   - Permite probar la conectividad entre un recurso de origen y un recurso de destino en una VPC.
-- Network Access Analyzer 
+- **Network Access Analyzer**
   - Identificar accesos de red no deseados a los recursos de AWS.
-- Traffic Mirroring
+- **Traffic Mirroring**
   - Hace una copia del tráfico de red y la envía a soluciones de seguridad y monitoreo.
 
 ## Well-Architected Framework - Aplicado a la red
