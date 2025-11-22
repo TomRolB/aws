@@ -1,6 +1,6 @@
 # Summary
 
-[Introducción a la materia](../README.md)
+[Introducción al notebook](../README.md)
 
 # Clases
 
@@ -8,9 +8,9 @@
 - [Seguridad & IAM](./Clase%202.md)
 - [Almacenamiento](./Clase%203.md)
 - [Servicios de cómputo](./Clase%204.md)
-- [Clase 5](./Clase%205.md)
-- [Clase 6](./Clase%206.md)
-- [Clase 7](./Clase%207.md)
+- [Servicios de bases de datos](./Clase%205.md)
+- [Servicios de red](./Clase%206.md)
+- [Conexión entre redes](./Clase%207.md)
 - [Clase 8](./Clase%208.md)
 - [Clase 9](./Clase%209.md)
 - [Clase 10](./Clase%2010.md)

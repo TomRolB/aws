@@ -1,5 +1,7 @@
 # Capa de almacenamiento
 
+> Esta clase abarca el módulo 4 del curso de AWS Cloud Architecting
+
 ## Amazon S3
 
 ## Tipos de almacenamiento

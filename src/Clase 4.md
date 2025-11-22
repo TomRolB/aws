@@ -1,5 +1,7 @@
 # Servicios de cómputo
 
+> Esta clase abarca el módulo 5 del curso de AWS Cloud Architecting
+
 ## Objetivos
 
 - Identificar cómo usar Amazon Elastic Compute Cloud (Amazon EC2) en una arquitectura.
@@ -83,16 +85,6 @@ Una AMI provee la información necesaria para lanzar una instancia, incluyendo:
 
 Es básicamente una "receta" de cómo se van a crear todas las instancias lanzadas desde esta imagen.
 
-![Imagen 10-1](images/clase_4_page10_img1.png)
-
-![Imagen 10-2](images/clase_4_page10_img2.png)
-
-![Imagen 10-3](images/clase_4_page10_img3.png)
-
-![Imagen 10-4](images/clase_4_page10_img4.png)
-
-Amazon Machine Image (AMI)
-
 #### Beneficios
 
 | Repetibilidad                                                                              | Reusabilidad                                                                   | Recuperabilidad                                                                                                                                                                           |
@@ -101,13 +93,12 @@ Amazon Machine Image (AMI)
 
 #### Selección
 
-| Criterios                                   |                                                                                          |
-| ------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| Región                                      |                                                                                          |
-| Sistema Operativo                           |                                                                                          |
-| Tipo de almacenamiento del dispositivo raíz |                                                                                          |
-| Arquitectura                                |                                                                                          |
-| Tipo de virtualización                      | Para mejor desempeño, use AMIs con tipo de virtualización Hardware Virtual Machine (HVM) |
+**Criterios:**
+- Región
+- Sistema Operativo
+- Tipo de almacenamiento del dispositivo raíz
+- Arquitectura
+- Tipo de virtualización: Para mejor desempeño, use AMIs con tipo de virtualización Hardware Virtual Machine (HVM)
 
 | AMI source      |                                                         |
 | --------------- | ------------------------------------------------------- |
@@ -182,6 +173,7 @@ Véase el siguiente nombre: `c7gn.xlarge`. De acá podemos identificar:
 
 - Considere los requerimientos tanto de desempeño como de costo.
 - Use los recursos disponibles para obtener recomendaciones.
+
 | Tarea                                   | Solución                                                                                                                                                                                                                       |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Creación de una nueva instancia         | En la consola de EC2, use la página de Tipos de Instancia para filtrar según las características seleccionadas.<br>Recomendación: La última generación de cada familia generalmente tiene la mejor relación costo/rendimiento. |

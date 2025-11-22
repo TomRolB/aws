@@ -1,5 +1,7 @@
 # Introducción a la nube
 
+> Esta clase abarca los módulos 1 y 2 del curso de AWS Cloud Architecting
+
 ## Objetivos de la materia
 
 - Conocer y aplicar los principios y las buenas prácticas de arquitectura para el diseño de soluciones basadas en la nube.

@@ -1,5 +1,6 @@
 # Seguridad de acceso
 
+> Esta clase abarca el módulo 3 del curso de AWS Cloud Architecting
 
 ## Modelos de responsabilidad compartida
 ![Responsabilidad compartida](./images/Clase%201/shared-responsibility.png)
