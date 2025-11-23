@@ -36,6 +36,7 @@ Es necesario ir prediciendo la capacidad que vamos a necesitar y actuar en conse
 
 ## Amazon RDS
 <img src="./images/Clase%205/amazon-rds-logo.png" align="right" width="150" style="margin-left: 15px;">
+
 * Es un servicio de bases de datos relacionales gestionadas por AWS, para desplegarlas y escalarlas
 * Soporta múltiples motores de BD
 * Usa volúmenes de **Amazon Elastic Block Store (Amazon EBS)** para el guardado de la BD y sus logs.
@@ -59,6 +60,7 @@ Es necesario ir prediciendo la capacidad que vamos a necesitar y actuar en conse
 
 ## Aurora
 <img src="./images/Clase%205/amazon-aurora-logo.png" align="right" width="150" style="margin-left: 15px;">
+
 * Es un **Relational DataBase Management System (RDBMS)** en la nube con compatibilidad completa con MySQL y PostgreSQL
 * Está gestionado por Amazon RDS
 * Provee alta performance y disponibilidad por 1/10 del costo
@@ -128,6 +130,7 @@ Se utiliza IAM para comprobar que la aplicación tiene acceso a la BD. Luego, RD
 
 ## DynamoDB
 <img src="./images/Clase%205/dynamo-db-logo.png" align="right" width="150" style="margin-left: 15px;">
+
 * Base de datos NoSQL serverless, completamente gestionada por AWS
 * Soporta datos key-value y documentales. Su esquema es flexible, por lo cual cada ítem puede tener distintos atributos.
 * Su performance es de milisegundos y escala para proveer mayor capacidad
@@ -199,6 +202,7 @@ Prácticas de detección:
 
 ### Amazon Redshift
 <img src="./images/Clase%205/redshift-logo.png" align="right" width="150" style="margin-left: 15px;">
+
 * BD de Warehousing completamente gestionada por Amazon, que puede llegar a manejar petabytes de cargas de trabajo para analíticas
 * Utiliza almacenamiento columnar
 * Soporta **Amazon Redshift Serverless**
@@ -219,6 +223,7 @@ La opción a elegir depende del caso de negocio:
 
 ## Migración de datos a AWS
 <img src="./images/Clase%205/dms-logo.png" align="right" width="150" style="margin-left: 15px;">
+
 * Servicio de migraciones y replicación gestionado por AWS
 * Ayuda a mover BDs existentes y workloads de analíticas a AWS, e incluso desde dentro de AWS
 * Soporte para la mayoría de bases de datos open source

@@ -30,6 +30,7 @@ Una analogía muy sencilla es que, si busco una herramienta, puedo tener un dep�
 | Aumenta la disponibilidad                       |                                                                                                                |
 ## CloudFront
 <img src="./images/Clase%2011/cloudfront-logo.png" align="right" width="150" style="margin-left: 15px;">
+
 * Servicio de CDN que brinda contenido en todo el mundo, de manera segura, con baja latencia y alta velocidad de transferencia.
 * Provee el contenido a través de ubicaciones de proximidad (edge locations)
 * Mejora la resiliencia de las aplicaciones respecto de los ataques de denegación distribuida de servicios (DDOS), mediante el uso de servicios como AWS Shield y AWS WAF
@@ -79,6 +80,7 @@ Una distribución de CloudFront se configura con los siguientes pasos:
 
 ## ElastiCache
 <img src="./images/Clase%2011/elasticache-logo.png" align="right" width="150" style="margin-left: 15px;">
+
 * Es un servicio administrado de **almacenamiento de datos en memoria**, con una latencia en el orden de milisegundos 
 * Se ubica **entre una aplicación y el almacenamiento** de datos original 
 * **Reduce la latencia** de acceso y **facilita la carga** de bases de datos y aplicaciones 
