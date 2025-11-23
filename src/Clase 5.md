@@ -20,13 +20,13 @@
 
 ### Opciones de Amazon
 
-![[aws-database-services.png]]
+![AWS Database Services](./images/Clase%205/aws-database-services.png)
 
 ### ¿De qué se encarga AWS?
 
 En la tabla se ve de qué tenés que encargarte según el caso:
 
-![[responsibilities.png]]
+![Responsibilities](./images/Clase%205/responsibilities.png)
 
 ### Planeamiento de la capacidad de la BD
 
@@ -35,7 +35,7 @@ Es necesario ir prediciendo la capacidad que vamos a necesitar y actuar en conse
 2. **Escalado horizontal**: aumentar el número de servidores en los que corre la BD. En este caso no se requiere downtime; la capacidad se agrega con la BD en funcionamiento.
 
 ## Amazon RDS
-<img src="amazon-rds-logo.png" align="right" width="150" style="margin-left: 15px;">
+<img src="./images/Clase%205/amazon-rds-logo.png" align="right" width="150" style="margin-left: 15px;">
 * Es un servicio de bases de datos relacionales gestionadas por AWS, para desplegarlas y escalarlas
 * Soporta múltiples motores de BD
 * Usa volúmenes de **Amazon Elastic Block Store (Amazon EBS)** para el guardado de la BD y sus logs.
@@ -43,7 +43,7 @@ Es necesario ir prediciendo la capacidad que vamos a necesitar y actuar en conse
 
 ### Beneficios
 
-![[rds-benefits.png]]
+![RDS Benefits](./images/Clase%205/rds-benefits.png)
 
 * **Baja barrera administrativa**: no tenés que proveer tu propia infraestructura o instalar el software de BD
 * **Altamente escalable**: se puede hacer scale-up o scale-down de los recursos de cómputo y de memoria. Para esto, RDS provee distintos tipos de instancias.
@@ -55,10 +55,10 @@ Es necesario ir prediciendo la capacidad que vamos a necesitar y actuar en conse
 
 ### Arquitectura
 
-![[architecture.png]]
+![Architecture](./images/Clase%205/architecture.png)
 
 ## Aurora
-<img src="amazon-aurora-logo.png" align="right" width="150" style="margin-left: 15px;">
+<img src="./images/Clase%205/amazon-aurora-logo.png" align="right" width="150" style="margin-left: 15px;">
 * Es un **Relational DataBase Management System (RDBMS)** en la nube con compatibilidad completa con MySQL y PostgreSQL
 * Está gestionado por Amazon RDS
 * Provee alta performance y disponibilidad por 1/10 del costo
@@ -68,7 +68,7 @@ Es necesario ir prediciendo la capacidad que vamos a necesitar y actuar en conse
 
 ### Clusters de Aurora
 
-![[aurora-clusters.png]]
+![Aurora Clusters](./images/Clase%205/aurora-clusters.png)
 
 ### Aurora Serverless
 
@@ -82,14 +82,14 @@ Es necesario ir prediciendo la capacidad que vamos a necesitar y actuar en conse
 
 ## Tipos de instancias de EC2 para RDS
 
-![[instance-types.png]]
+![Instance types](./images/Clase%205/instance-types.png)
 
 * **General purpose** (familias T y M): para cargas de trabajo intensivas en CPU o para usos de CPU moderados.
 * **Memory-optimized** (familias R y X): para cargas de trabajo intensivas en queries o conexiones a la BD.
 
 ## Buenas prácticas de Amazon RDS
 
-![[rds-best-practices.png]]
+![RDS Best Practices](./images/Clase%205/rds-best-practices.png)
 
 ## Amazon RDS Proxy
 
@@ -127,7 +127,7 @@ Se utiliza IAM para comprobar que la aplicación tiene acceso a la BD. Luego, RD
 * También se pueden crear réplicas de lectura a otras regiones, ya sea por backup, para mayor disponibilidad de lecturas, para migrar un data center a otra región, etc.
 
 ## DynamoDB
-<img src="dynamo-db-logo.png" align="right" width="150" style="margin-left: 15px;">
+<img src="./images/Clase%205/dynamo-db-logo.png" align="right" width="150" style="margin-left: 15px;">
 * Base de datos NoSQL serverless, completamente gestionada por AWS
 * Soporta datos key-value y documentales. Su esquema es flexible, por lo cual cada ítem puede tener distintos atributos.
 * Su performance es de milisegundos y escala para proveer mayor capacidad
@@ -147,11 +147,11 @@ Se utiliza IAM para comprobar que la aplicación tiene acceso a la BD. Luego, RD
 
 ### Estructura de datos
 
-![[dynamo-data-structure.png]]
+![Dynamo Data Structure](./images/Clase%205/dynamo-data-structure.png)
 
 Ejemplo de una tabla:
 
-![[dynamo-sample.png]]
+![Dynamo Sample](./images/Clase%205/dynamo-sample.png)
 
 La partition key determina a qué partición va cada ítem según la siguiente lógica:
 1. Se hashea la partition key
@@ -198,7 +198,7 @@ Prácticas de detección:
 ## Purpose-built Databases
 
 ### Amazon Redshift
-<img src="redshift-logo.png" align="right" width="150" style="margin-left: 15px;">
+<img src="./images/Clase%205/redshift-logo.png" align="right" width="150" style="margin-left: 15px;">
 * BD de Warehousing completamente gestionada por Amazon, que puede llegar a manejar petabytes de cargas de trabajo para analíticas
 * Utiliza almacenamiento columnar
 * Soporta **Amazon Redshift Serverless**
@@ -207,7 +207,7 @@ Prácticas de detección:
 
 ### Otras BDs
 
-![[purpose-built-services.png]]
+![Purpose Built Services](./images/Clase%205/purpose-built-services.png)
 
 La opción a elegir depende del caso de negocio:
 * **DocumentDB**: se tiene una feature donde cada usuario introduce información con distinto formato
@@ -218,7 +218,7 @@ La opción a elegir depende del caso de negocio:
 * **QLDB**: se requiere guardar datos para auditoria y compliance. Mediante una base de datos *ledger*, se obtienen garantías de inmutabilidad y verificación criptográfica, aunque con un overhead de tiempo de ejecución. Sirve, por ejemplo, para guardar transacciones bancarias, para registrar el estado de los lotes de un producto, etc.
 
 ## Migración de datos a AWS
-<img src="dms-logo.png" align="right" width="150" style="margin-left: 15px;">
+<img src="./images/Clase%205/dms-logo.png" align="right" width="150" style="margin-left: 15px;">
 * Servicio de migraciones y replicación gestionado por AWS
 * Ayuda a mover BDs existentes y workloads de analíticas a AWS, e incluso desde dentro de AWS
 * Soporte para la mayoría de bases de datos open source
@@ -254,4 +254,6 @@ Se pueden aplicar los pilares del AWS Well-Architected Framework (WAF) de la sig
 ### Optimización de costos
 
 * Seleccionar el tipo de recurso, el tamaño y la cantidad basándose en los datos: por ejemplo, determinar si la tarea es intensiva en cómputo, memoria, throughput (tamaño de los datos dividido el tiempo que tardan en llegar) o escritura.
+
+
 

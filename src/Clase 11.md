@@ -17,7 +17,7 @@ Solemos cachear porque necesitamos:
 
 Una analogía muy sencilla es que, si busco una herramienta, puedo tener un depósito de herramientas que me evite tener que ir hasta la ferretería
 
-![[analogy.png]]
+![Analogy](./images/Clase%2011/analogy.png)
 
 ## Ventajas y desventajas
 
@@ -29,7 +29,7 @@ Una analogía muy sencilla es que, si busco una herramienta, puedo tener un dep�
 | Brinda una performance predecible               |                                                                                                                |
 | Aumenta la disponibilidad                       |                                                                                                                |
 ## CloudFront
-<img src="cloudfront-logo.png" align="right" width="150" style="margin-left: 15px;">
+<img src="./images/Clase%2011/cloudfront-logo.png" align="right" width="150" style="margin-left: 15px;">
 * Servicio de CDN que brinda contenido en todo el mundo, de manera segura, con baja latencia y alta velocidad de transferencia.
 * Provee el contenido a través de ubicaciones de proximidad (edge locations)
 * Mejora la resiliencia de las aplicaciones respecto de los ataques de denegación distribuida de servicios (DDOS), mediante el uso de servicios como AWS Shield y AWS WAF
@@ -45,11 +45,11 @@ Una analogía muy sencilla es que, si busco una herramienta, puedo tener un dep�
 	* Son más grandes
 	* Ayudan cuando el contenido no es tan popular
 
-![[cloudfront-components.png]]
+![Cloudfront Components](./images/Clase%2011/cloudfront-components.png)
 
 ### Funcionamiento
 
-![[cloudfront-flow.png]]
+![Cloudfront Flow](./images/Clase%2011/cloudfront-flow.png)
 
 ### Configuración
 
@@ -69,7 +69,7 @@ Una distribución de CloudFront se configura con los siguientes pasos:
 
 ### Caso de uso: streaming de video
 
-![[cloudfront-streaming-use-case.png]]
+![Cloudfront Streaming Use Case](./images/Clase%2011/cloudfront-streaming-use-case.png)
 
 ### Mitigación de DDoS
 
@@ -78,7 +78,7 @@ Una distribución de CloudFront se configura con los siguientes pasos:
 * Las mitigaciones de Shield DDoS solo permiten que el tráfico válido llegue a CloudFront
 
 ## ElastiCache
-<img src="elasticache-logo.png" align="right" width="150" style="margin-left: 15px;">
+<img src="./images/Clase%2011/elasticache-logo.png" align="right" width="150" style="margin-left: 15px;">
 * Es un servicio administrado de **almacenamiento de datos en memoria**, con una latencia en el orden de milisegundos 
 * Se ubica **entre una aplicación y el almacenamiento** de datos original 
 * **Reduce la latencia** de acceso y **facilita la carga** de bases de datos y aplicaciones 
@@ -95,7 +95,7 @@ Una distribución de CloudFront se configura con los siguientes pasos:
 
 |                 Memcached                  |                        Redis                        |
 | :----------------------------------------: | :-------------------------------------------------: |
-|    ![[elasticache-memcached-logo.png]]     |           ![[elasticache-redis-logo.png]]           |
+|    ![Elasticache Memcached Logo](./images/Clase%2011/elasticache-memcached-logo.png)     |           ![Elasticache Redis Logo](./images/Clase%2011/elasticache-redis-logo.png)           |
 |            Modelos más básicos             |            Usar tipos de datos complejos            |
 | Ejecutar nodos grandes con múltiples hilos |      Proveer persistencia al almacén de claves      |
 | Escalar horizontalmente con Auto Discovery |      Ordenar o clasificar datasets en memoria       |
@@ -104,7 +104,7 @@ Una distribución de CloudFront se configura con los siguientes pasos:
 
 ### Componentes
 
-![[elasticache-structure.png]]
+![Elasticache Structure](./images/Clase%2011/elasticache-structure.png)
 
 ### Time To Live (TTL)
 
@@ -121,10 +121,10 @@ Una distribución de CloudFront se configura con los siguientes pasos:
 |**Desventaja**|Requiere una estrategia por programa para asegurar que el cache esté actualizado|Aumenta el costo y almacena en memoria datos que podrían ser innecesarios|
 #### Lazy Loading
 
-![[lazy-loading-strat.png]]
+![Lazy Loading Strat](./images/Clase%2011/lazy-loading-strat.png)
 #### Write-through
 
-![[write-through-strat.png]]
+![Write Through Strat](./images/Clase%2011/write-through-strat.png)
 
 ## Buenas prácticas para WAF
 
